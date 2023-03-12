@@ -15,7 +15,8 @@ body   {
 }
 
 .wrapper {
-    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     max-width: 120rem;
     margin: 2rem auto;
     background-color: white;
@@ -29,6 +30,7 @@ body   {
     margin: 3rem 1rem 0 1rem;
     border-top: 2px solid #678775;
     border-bottom: 2px solid #678775;
+    border-radius: 2rem;
 }
 .header__fotoWrapper {
     width: 9rem;
@@ -78,15 +80,19 @@ margin: auto 0;
 }
 
 .description {
-    margin-top: 2rem;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
-
+    margin-top: 5rem;
 }
 .description__aboutMe {
     text-align: center;
     width: 50%;
     margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
 }
 .description__aboutMeH2 {
     margin-bottom: 0.5rem;
@@ -96,6 +102,10 @@ margin: auto 0;
     text-align: center;
     width: 50%;
     margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
 }
 .description__skillsH2 {
     margin-bottom: 0.5rem;
@@ -103,12 +113,20 @@ margin: auto 0;
 .description__codeExample {
     text-align: center;
     width: 50%;
-    margin: 2rem auto 0 auto;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
 }
 .description__experience {
     text-align: center;
     width: 50%;
-    margin: 2rem auto 0 auto;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
 }
 .description__codeExampleH2 {
     margin-bottom: 0.5rem;
@@ -119,16 +137,31 @@ margin: auto 0;
 .description__education {
     text-align: center;
     width: 50%;
-    margin: 2rem auto 0 auto;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
 }
 .description__englishLevel {
     text-align: center;
     width: 50%;
-    margin: 2rem auto 0 auto;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
 }
 .description__educationH2 {
     margin-bottom: 0.5rem;
 }
 .description__englishLevelH2 {
     margin-bottom: 0.5rem;
+}
+.footer {
+    margin-bottom: 1rem;
+}
+.footer__navUl {
+    display: flex;
+    justify-content: space-evenly;
 }
