@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html,
+body   {
+    height: 100%;
+    background: #678775;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    max-width: 120rem;
+    margin: 2rem auto;
+    background-color: white;
+    height: 100vh;
+    padding-top: 0.5rem;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem 1rem 0 1rem;
+    border-top: 2px solid #678775;
+    border-bottom: 2px solid #678775;
+    border-radius: 2rem;
+}
+.header__fotoWrapper {
+    width: 9rem;
+}
+.myFoto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.header__nameWrapper {
+margin: auto 0;
+}
+.header__nameH1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+    font-family: 'Beau Rivage', cursive;
+}
+.header__contacts {
+    border-radius: 0.5rem;
+}
+.contacts__addressP {
+    font-size: 1.2rem;
+    color: grey;
+}
+.contacts__addressSpan {
+    margin-right: 3rem;
+    color: black;
+    font-size: 1.5rem;
+}
+.contacts__phone {
+    color: black;
+    font-size: 1.5rem;
+}
+.contacts__phoneLink {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: grey;
+}
+.contacts__email {
+    color: black;
+    font-size: 1.5rem;
+}
+.contacts__emailLink {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.description {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+}
+.description__aboutMe {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+.description__aboutMeH2 {
+    margin-bottom: 0.5rem;
+}
+
+.description__skillsContainer {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+.description__skillsH2 {
+    margin-bottom: 0.5rem;
+}
+.description__codeExample {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+.description__experience {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+.description__codeExampleH2 {
+    margin-bottom: 0.5rem;
+}
+.description__experienceH2 {
+    margin-bottom: 0.5rem;
+}
+.description__education {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+.description__englishLevel {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 2px #678775;
+    border-top: solid 2px #678775;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+.description__educationH2 {
+    margin-bottom: 0.5rem;
+}
+.description__englishLevelH2 {
+    margin-bottom: 0.5rem;
+}
+.footer {
+    margin-bottom: 1rem;
+}
+.footer__navUl {
+    display: flex;
+    justify-content: space-evenly;
+}

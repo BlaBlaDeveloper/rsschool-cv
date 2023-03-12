@@ -1,1 +1,1 @@
-# rsschool-cv
+https://BlaBlaDeveloper.github.io/rsschool-cv/cv
