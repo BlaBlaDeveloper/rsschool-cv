@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body   {
+    height: 100%;
+    background: #678775;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 12px;
+}
+
+.wrapper {
+    max-width: 120rem;
+    margin: 2rem auto;
+    background-color: white;
+    height: 100vh;
+    padding-top: 0.5rem;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem 1rem 0 1rem;
+    border-top: 2px solid #678775;
+    border-bottom: 2px solid #678775;
+}
+.header__fotoWrapper {
+    width: 9rem;
+}
+.myFoto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.header__nameWrapper {
+margin: auto 0;
+}
+.header__nameH1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+.header__contacts {
+    border-radius: 0.5rem;
+}
+.contacts__addressP {
+    font-size: 1.2rem;
+    color: grey;
+}
+.contacts__addressSpan {
+    margin-right: 3rem;
+    color: black;
+    font-size: 1.5rem;
+}
+.contacts__phone {
+    color: black;
+    font-size: 1.5rem;
+}
+.contacts__phoneLink {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: grey;
+}
+.contacts__email {
+    color: black;
+    font-size: 1.5rem;
+}
+.contacts__emailLink {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: grey;
+}

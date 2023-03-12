@@ -3,7 +3,7 @@
 ### Contacts: 
 
 * ##### Address:
-    * *Germany. 35799 Merenberg. Vonhartradstrasse 2.*
+    * *Germany. 35799 Merenberg. Vonhartradstrasse 3.*
 * ##### Phone: 
     * *+ 49-162-287-36-23*
 * ##### E-mail: 
